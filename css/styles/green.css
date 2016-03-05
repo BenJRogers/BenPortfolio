@@ -27,8 +27,17 @@ a{
     color:#5b9f6e;
 }
 
-.social-icons li a .top{
+/*.social-icons li a .top{
     color: #5b9f6e;
+}*/
+#github.top{
+  color: #333333;
+}
+#linkedin.top{
+  color: #0077b5;
+}
+ #twitter.top {
+  color: #55acee;
 }
 .arrow-down:before{
     background: #5b9f6e;
