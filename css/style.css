@@ -46,7 +46,7 @@ a:hover,a:active,a:focus,a:visited {
 
 .btn{
     margin-top: 1em;
-}  
+}
 .btn-outline {
     color: #fff;
     width: 100%;
@@ -115,13 +115,13 @@ section>.overlay{
 }
 .light-bg{
     background-color: #eee;
-    color:#000;
+    color:#212121;
 }
 .dark-bg a:hover{
     color:#fff;
 }
 .light-bg a:hover{
-    color:#000;
+    color:#212121;
 }
 .section.darker{
     background:rgba(0,0,0,0.4);
@@ -155,7 +155,7 @@ section>.overlay{
     border: none;
 }
 .light-bg{
-    color:#000;
+    color:#212121;
 }
 .light-bg p{
     color: rgb(50, 50, 50);
@@ -332,14 +332,14 @@ section>.overlay{
 }
 #nav-container  li a .top{
     top: -16px;
-    color: #000;
+    color: #212121;
 }
 #nav-container li a .bottom {
     top: -16px;
     color: #fff;
  }
 #nav-container  li.active a{
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #212121;
 }
 #nav-container li.active .top,
 #nav-container li.active .bottom{
@@ -353,7 +353,7 @@ section>.overlay{
     color: #fff;
 }
 #nav-container.bottom li a .bottom{
-    color:#000;
+    color:#212121;
 }
 #nav-container.bottom  li.active .top,
 #nav-container.bottom  li.active .bottom{
@@ -367,7 +367,7 @@ section>.overlay{
 /* Home Section
 **************************************************/
 #home{
-    background: #000;
+    background: #212121;
 }
 #home .contents{
     text-align: center;
@@ -377,7 +377,7 @@ section>.overlay{
 }
 #caption-carousel{
     left :0 !important;
-    top :0 !important;   
+    top :0 !important;
     overflow: hidden;
 }
 #caption-carousel .caption{
@@ -464,7 +464,7 @@ section#home .container{
     color: rgb(53, 53, 53);
     font-size: 22px;
     overflow: hidden;
-    height: 23px;  
+    height: 23px;
 }
 .social-icons li i{
     display: block;
@@ -607,7 +607,7 @@ section#home .container{
     background: #fff;
 }
 .bio-circles ul li:hover .second{
-    color: #000;
+    color: #212121;
 }
 .bio-circles ul li span{
     display: block;
@@ -691,7 +691,7 @@ section#home .container{
 }
 
 
-/* Skills Section 
+/* Skills Section
 **************************************************/
 #Characteristics{
     background: url(../img/parallax2.jpg) no-repeat;
@@ -729,7 +729,7 @@ section#home .container{
     padding-right:50px;
 }
 .list-center li:nth-child(even) i {
-    float: right;   
+    float: right;
 }
 
 .list-center li i{
@@ -759,7 +759,7 @@ section#home .container{
     padding: 0;
     height: 320px;
     display: inline-block;
-}  
+}
 .vertical-bar li{
     float: left;
     position: relative;
@@ -767,7 +767,7 @@ section#home .container{
     width: 80px;
     height:100%;
     margin: 0 15px;
-} 
+}
 .vertical-bar li .bar{
     width: 120px;
     height:50%;
@@ -817,7 +817,7 @@ section#home .container{
     top:1%;
 }
 .vertical-bar .levels span
-{   
+{
     width: 10px;
     height: 2px;
     float: right;
@@ -863,7 +863,7 @@ section#home .container{
     text-align: center;
     line-height: 69px;
     border-radius: 50%;
-    margin-top: 15px; 
+    margin-top: 15px;
 }
 .chart span {
     font-size: 18px;
@@ -877,7 +877,7 @@ section#home .container{
     display: block;
     border-radius: 50%;
     background: #fff;
-    color: #000;
+    color: #212121;
     z-index: 2;
     line-height: 52px;
 }
@@ -909,7 +909,7 @@ section#home .container{
     margin-right: 100px;
 }
 
-/* Portfolio Section 
+/* Portfolio Section
 **************************************************/
 .folio-filter {
     margin: 0;
@@ -947,7 +947,7 @@ section#home .container{
 }
 
 .folio-filter li a {
-    color: #000;
+    color: #212121;
     display: block;
     padding: 0 15px;
 }
@@ -1269,7 +1269,7 @@ section#home .container{
 }
 
 
-/* Contact Section 
+/* Contact Section
 **************************************************/
 #gmapcontainer{
     min-height: 580px;
@@ -1295,12 +1295,12 @@ section#home .container{
 }
 
 #map-marker{
-    
+
 }
 #map-marker i{
     display: block;
     font-size: 75px;
-    text-shadow:0px 0px 6px #000;
+    text-shadow:0px 0px 6px #212121;
 }
 .contact-det{
     background: rgba(0, 0, 0, 0.6);
@@ -1437,14 +1437,14 @@ form#contact-form{
 }
 
 
-/* Scroll bar 
+/* Scroll bar
 **************************************************/
 .ps-scrollbar-y-rail{
     top:90px !important;
     background: rgba(255,255,255,0.6) !important;
     width: 12px !important;
     border-radius: 0 !important;
-    z-index: 1000;
+    z-index: 1212121;
 }
 .ps-scrollbar-y-rail.stick-top{
     top:0px !important;
@@ -1454,7 +1454,7 @@ form#contact-form{
 }
 
 .ps-scrollbar-y{
-    background: #000 !important;
+    background: #212121 !important;
     width: 12px !important;
     border-radius: 0 !important;
 }
@@ -1464,7 +1464,7 @@ form#contact-form{
 }
 
 
-/* Loader 
+/* Loader
 **************************************************/
 #preloader {
     position:fixed;
@@ -1508,10 +1508,10 @@ form#contact-form{
 }
 
 
-/* Responsive Media queries 
+/* Responsive Media queries
 **************************************************/
 @media screen and (max-width:768px) {
-    
+
     .container{
         padding-right: 6%;
         padding-left: 5%;
@@ -1534,7 +1534,7 @@ form#contact-form{
          -o-transform: rotateZ(90deg);
             transform: rotateZ(90deg);
 
-     height: 370px;       
+     height: 370px;
     }
     .vertical-bar .levels>div{
         -webkit-transform: rotateZ(-30deg);
@@ -1543,7 +1543,7 @@ form#contact-form{
              -o-transform: rotateZ(-30deg);
                 transform: rotateZ(-30deg);
         margin-top: 22px;
-        margin-left: 7px;       
+        margin-left: 7px;
     }
     .vertical-bar li{
         width: 25px;
@@ -1697,4 +1697,3 @@ form#contact-form{
 /*
 End of stylesheet
 */
-
