@@ -26,6 +26,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 p{
+    letter-spacing: 1px;
+    font-size: 18px;
     color:#fff;
     line-height: 1.5em;
     margin: 0 0 20px;
@@ -565,7 +567,7 @@ section#home .container{
 /* About Section
  **************************************************/
 #bio-container{
-    background: url(../img/parallax1.jpg) no-repeat;
+    background: url(../img/porfile-main.png) no-repeat;
     background-size: cover;
     position: relative;
     background-attachment: fixed;
@@ -618,7 +620,7 @@ section#home .container{
 /* Skills Section
 **************************************************/
 #Characteristics{
-    background: url(../img/parallax2.jpg) no-repeat;
+    background: url(../img/skillBackground.png) no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }

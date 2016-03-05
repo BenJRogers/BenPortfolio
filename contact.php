@@ -8,16 +8,16 @@ $comments = trim($_POST['message']);
 
 
 
-$emailTo = 'owwwlab@gmail.com';
+$emailTo = 'benjrogers48@gmail.com';
 $body = "Name: $name \n\nEmail: $email \n\nSubject: $subject \n\nComments: $comments";
 $headers = 'From: ' .' <'.$emailTo.'>' . "\r\n" . 'Reply-To: ' . $email;
 
 $mailed = mail($emailTo, $subject, $body, $headers);
 
 if($mailed==true){
-   echo json_encode(array('status' => 'ok')); 
+   echo json_encode(array('status' => 'ok'));
 }else{
-   echo json_encode(array('status' => 'error')); 
+   echo json_encode(array('status' => 'error'));
 }
 
 
