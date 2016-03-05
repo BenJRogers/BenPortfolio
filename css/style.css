@@ -96,6 +96,7 @@ a:hover,a:active,a:focus,a:visited {
 section>.overlay{
     width: 100%;
     height: 100%;
+    padding-bottom: 100px;
     background:url(../img/overlay-pattern.png) repeat;
     opacity: 0.7;
     z-index: 2;
@@ -569,45 +570,8 @@ section#home .container{
     position: relative;
     background-attachment: fixed;
 }
-.bio-circles{
-    margin-top: 60px;
-}
-.bio-circles ul{
-    margin: 0;
-    padding:0;
-    text-align: center;
-}
-.bio-circles ul li{
-    display: inline-block;
-    list-style: none;
-    margin: 0 30px;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    line-height: 40px;
-    padding-top: 20px;
-    background: rgb(50,50,50);
-     moz-transition: all 0.4s ease-out 0s;
-    -o-transition: all 0.4s ease-out 0s;
-    -webkit-transition: all 0.4s ease-out 0s;
-    -ms-transition: all 0.4s ease-out 0s;
-    transition: all 0.4s ease-out 0s;
-    }
-
-.bio-circles ul li .second{
-    font-size: 20px;
-    color: #fff;
-}
-.bio-circles ul li:hover{
-    background: #fff;
-}
-.bio-circles ul li:hover .second{
-    color: #212121;
-}
-.bio-circles ul li span{
-    display: block;
-    font-size: 14px;
-    text-transform: inherit;
+.container{
+    padding-bottom: 100px !important;
 }
 
 .services ul{
@@ -1584,17 +1548,6 @@ form#contact-form{
     .center-heading{
         margin-bottom: 40px;
     }
-    .bio-circles ul li{
-        width: 80px;
-        height: 80px;
-        line-height: 20px;
-        margin: 0 10px;
-    }
-    .bio-circles ul li .second {
-        font-size: 16px;
-        color: rgb(255, 255, 255);
-    }
-
     .circular-bar ul li{
         width:100%;
     }
