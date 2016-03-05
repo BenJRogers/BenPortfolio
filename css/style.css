@@ -1,10 +1,4 @@
-﻿/*
- *  Termé -Responsive Personal Portfolio Template Stylesheet
- *  owwwlab.com @2013
- *  owwwlab@gmail.com
- */
-
-/* Table of contents of this file
+﻿/* Table of contents of this file
 *************************************************
 features                        |  line number
 General style                   |  22
@@ -404,6 +398,7 @@ section>.overlay{
 }
 #caption-carousel .caption h2{
     margin-top: 20px;
+    text-align: center;
 }
 .container{
     padding-bottom: 0 !important;
@@ -461,7 +456,7 @@ section#home .container{
 }
 .social-icons li a {
     display: block;
-    color: rgb(53, 53, 53);
+    color:#999;
     font-size: 22px;
     overflow: hidden;
     height: 23px;
@@ -614,42 +609,6 @@ section#home .container{
     font-size: 14px;
     text-transform: inherit;
 }
-.exp-list {
-    margin:0;
-    padding: 0;
-}
-.exp-list li{
-    list-style: none;
-    margin-bottom: 30px;
-}
-
-.exp-list .com-logo,.exp-list .details{
-    display: inline-block;
-}
-
-.exp-list .details{
-    vertical-align: middle;
-}
-.exp-list .details .period{
-    margin-right: 10px;
-}
-.exp-list .details .period,.exp-list .details .title{
-    display: inline-block;
-}
-.exp-list .details .period span{
-    background-color: rgb(219, 219, 219);
-    padding: 5px;
-    color: rgb(116, 116, 116);
-}
-.exp-list .details .period .separator{
-    padding: 0 5px;
-    background: transparent;
-    color: inherit;
-}
-.exp-list .details .description{
-    opacity: 0.8;
-    padding-right: 5px;
-}
 
 .services ul{
     margin-left: 30px;
@@ -689,6 +648,7 @@ section#home .container{
     font-size: 22px;
     background: rgb(255, 255, 255);
 }
+
 
 
 /* Skills Section
