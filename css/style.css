@@ -16,18 +16,20 @@ Responsive Media queries        |  1480
 /* General styles
 **************************************************/
 body {
-    font-family: "PT Sans Narrow", Helvetica, Verdana, Tahoma, sans-serif;
+    font-family: 'PT Sans', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #fff;
     background-color: #4a504f;
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: "PT Sans Narrow", Helvetica, Verdana, Tahoma, sans-serif;
+ h2, h3, h4, h5, h6, .h2, .h3, .h4, .h5, .h6 {
+    /*font-family: 'Allerta', Helvetica, Arial, sans-serif;*/
+    font-family: 'Arvo', Georgia, Times, serif;
+
 }
 
 p{
-    letter-spacing: 1px;
-    font-size: 18px;
+    letter-spacing: 1.4px;
+    font-size: 16.5px;
     color:#fff;
     line-height: 1.5em;
     margin: 0 0 20px;
@@ -197,7 +199,7 @@ section>.overlay{
     letter-spacing: 3px;
     max-width: 400px;
     margin: 0 auto 30px auto;
-    font-size: 40px;
+
 }
 .center-heading h2:after{
     content: '';
@@ -309,8 +311,9 @@ section>.overlay{
 
 #nav-container li a{
     color: rgb(255, 255, 255);
-    font-family: "PT Sans Narrow";
-    font-size: 1.1em;
+    font-family: 'Arvo', Georgia, Times, serif;
+    /*font-family: 'Allerta', Helvetica, Arial, sans-serif;*/
+    /*font-family: "PT Sans Narrow";*/
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-smoothing: antialiased;
@@ -363,6 +366,9 @@ section>.overlay{
 
 /* Home Section
 **************************************************/
+h1{
+    font-family: 'Crimson Text', Georgia, Times, serif;
+}
 #home{
     background: #212121;
 }
@@ -400,7 +406,7 @@ section>.overlay{
     margin: 0;
 }
 #caption-carousel .caption h2{
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
 }
 .container{
@@ -418,7 +424,7 @@ section#home .container{
     margin: 0 auto;
     margin-top: 0 !important;
     color: rgb(0, 0, 0);
-    padding-top: 60px;
+    padding-top: 75px;
     position: relative;
     text-align: center;
 }
@@ -572,10 +578,6 @@ section#home .container{
     position: relative;
     background-attachment: fixed;
 }
-.container{
-    padding-bottom: 100px !important;
-}
-
 .services ul{
     margin-left: 30px;
     margin-top:55px;
