@@ -589,7 +589,7 @@ Termé -Responsive Personal Portfolio Template main JS file
                     data.items.show();
                 },
                 scroll : {
-                    duration        : 1400,
+                    duration        : 1200,
                     pauseOnHover    : false,
                     fx:'fade',
                     onBefore:function(data){
